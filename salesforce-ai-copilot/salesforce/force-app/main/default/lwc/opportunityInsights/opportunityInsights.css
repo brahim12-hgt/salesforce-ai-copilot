@@ -1,0 +1,13 @@
+.risk-number { font-size: 2.5rem; font-weight: 700; line-height: 1; }
+.gauge { height: 10px; background: #e5e5e5; border-radius: 5px; overflow: hidden; }
+.gauge-fill { height: 100%; }
+.gauge-fill.high, .f-bar.up { background: #ba0517; }
+.gauge-fill.mid { background: #dd7a01; }
+.gauge-fill.low, .f-bar.down { background: #2e844a; }
+.factor { margin-bottom: 0.75rem; }
+.factor-head { display: flex; justify-content: space-between; font-size: 0.875rem; }
+.f-track { height: 6px; background: #e5e5e5; border-radius: 3px; margin: 0.25rem 0; }
+.f-bar { height: 100%; border-radius: 3px; }
+.factor-hint { font-size: 0.75rem; color: #5c5c5c; }
+.rec { border: 1px solid #c9c9c9; border-radius: 0.25rem; padding: 0.75rem; margin-top: 0.5rem; }
+.badge-high { background: #fce4e4; color: #8e030f; }

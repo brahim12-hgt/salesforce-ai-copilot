@@ -1,0 +1,33 @@
+<template>
+    <lightning-card title="AI Copilot — Pilotage des opportunités" icon-name="standard:forecasts">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <template if:true={loading}><lightning-spinner alternative-text="Chargement" size="small"></lightning-spinner></template>
+            <template if:true={error}>
+                <div class="slds-text-color_error" role="alert">{error}</div>
+            </template>
+            <template if:true={data}>
+                <div class="kpis">
+                    <div class="kpi"><div class="kpi-value">{data.total}</div><div class="kpi-label">Opportunités ouvertes</div></div>
+                    <div class="kpi"><div class="kpi-value">{conversion}</div><div class="kpi-label">Taux de conversion estimé</div></div>
+                    <template for:each={riskCards} for:item="c">
+                        <div key={c.key} class={c.cls}><div class="kpi-value">{c.value}</div><div class="kpi-label">{c.label}</div></div>
+                    </template>
+                </div>
+
+                <h3 class="slds-text-heading_small slds-m-top_large">Répartition par probabilité de conversion</h3>
+                <div class="chart" role="img" aria-label="Histogramme des probabilités de conversion">
+                    <template for:each={bars} for:item="b">
+                        <div key={b.label} class="bar-col">
+                            <div class="bar-count">{b.count}</div>
+                            <div class="bar" style={b.style}></div>
+                            <div class="bar-label">{b.label}</div>
+                        </div>
+                    </template>
+                </div>
+
+                <h3 class="slds-text-heading_small slds-m-top_large slds-m-bottom_small">Opportunités prioritaires</h3>
+                <lightning-datatable key-field="id" data={rows} columns={columns} hide-checkbox-column onrowaction={handleRow}></lightning-datatable>
+            </template>
+        </div>
+    </lightning-card>
+</template>

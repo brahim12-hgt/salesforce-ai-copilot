@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Risk_Level__c</fullName>
+    <label>AI Risk Level</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Faible</fullName><default>false</default><label>Faible</label></value>
+            <value><fullName>Moyen</fullName><default>false</default><label>Moyen</label></value>
+            <value><fullName>Élevé</fullName><default>false</default><label>Élevé</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

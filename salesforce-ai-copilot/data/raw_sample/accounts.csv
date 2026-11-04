@@ -1,0 +1,86 @@
+account,sector,year_established,revenue,employees,office_location,subsidiary_of
+Account 0,entertainment,1998,854.84,5017,Kenya,Account 64
+Account 1,telecommunications,2014,991.1,2418,Kenya,
+Account 2,telecommunications,2011,2202.55,6065,United States,
+Account 3,entertainment,2005,981.41,22919,United States,Account 59
+Account 4,finance,2003,759.16,27129,United States,
+Account 5,marketing,1980,995.82,4019,United States,
+Account 6,marketing,2007,296.33,15104,Norway,
+Account 7,technology,1996,782.21,4082,United States,
+Account 8,retail,1982,1132.53,25355,United States,
+Account 9,medical,1988,484.2,4007,United States,Account 57
+Account 10,medical,1999,1167.69,19252,Kenya,
+Account 11,marketing,2006,869.49,2529,United States,
+Account 12,entertainment,1998,1648.78,22171,Norway,Account 50
+Account 13,retail,2002,394.0,27201,Japan,
+Account 14,software,2012,1027.58,21975,United States,
+Account 15,marketing,2005,1215.08,8150,United States,Account 13
+Account 16,technology,1992,1957.75,25272,Korea,
+Account 17,marketing,2003,1070.78,9261,Panama,Account 8
+Account 18,retail,2001,910.91,22637,United States,Account 23
+Account 19,software,1983,354.7,25000,Kenya,
+Account 20,marketing,1981,91.37,14612,Norway,
+Account 21,medical,2004,477.65,18635,Japan,Account 18
+Account 22,medical,1993,1104.9,25666,United States,
+Account 23,medical,2001,2313.21,5695,United States,
+Account 24,telecommunications,1991,949.89,686,Panama,Account 36
+Account 25,medical,1987,881.21,13100,United States,
+Account 26,entertainment,1984,2115.16,5521,United States,
+Account 27,software,1993,960.87,26529,United States,
+Account 28,software,2010,589.22,26015,United States,
+Account 29,finance,1994,2323.96,11323,Kenya,
+Account 30,finance,1993,1950.31,9333,United States,
+Account 31,finance,2000,552.79,21355,Japan,
+Account 32,finance,2016,625.79,13654,United States,
+Account 33,entertainment,1993,2606.65,2994,Korea,Account 64
+Account 34,marketing,2001,785.21,19910,United States,
+Account 35,marketing,1995,496.18,21847,United States,
+Account 36,telecommunications,2001,564.97,2196,United States,
+Account 37,finance,1995,1284.71,23316,United States,
+Account 38,medical,2003,243.64,16061,United States,
+Account 39,entertainment,1999,585.97,24790,Kenya,
+Account 40,software,2004,1684.13,25516,United States,
+Account 41,technology,2015,1056.37,20258,United States,Account 39
+Account 42,marketing,1984,1395.26,10069,Panama,
+Account 43,technology,2000,893.34,11184,Japan,
+Account 44,marketing,1995,322.83,21752,Japan,
+Account 45,finance,1992,656.38,2019,United States,
+Account 46,retail,1988,974.05,7007,United States,
+Account 47,retail,1980,655.88,15611,United States,
+Account 48,software,1994,783.93,28289,United States,
+Account 49,retail,2010,1017.31,22748,United States,
+Account 50,technology,1982,1625.17,24485,United States,Account 43
+Account 51,finance,1994,623.9,5806,United States,
+Account 52,entertainment,2015,1930.56,8481,United States,
+Account 53,software,2015,894.92,8060,Norway,
+Account 54,marketing,1987,1735.65,22511,United States,
+Account 55,entertainment,1979,1896.95,16129,United States,Account 16
+Account 56,marketing,2004,2692.37,6412,United States,
+Account 57,telecommunications,1979,1827.02,22475,United States,
+Account 58,software,1990,1840.82,19183,United States,Account 31
+Account 59,finance,1997,2646.87,26907,United States,
+Account 60,medical,2012,179.39,16804,United States,
+Account 61,software,1982,401.82,3859,United States,
+Account 62,software,2004,1801.67,26667,United States,
+Account 63,technology,1999,94.32,5609,United States,
+Account 64,entertainment,1984,1034.78,1743,Korea,
+Account 65,retail,2011,1030.15,24006,Norway,
+Account 66,retail,2011,226.11,13574,United States,
+Account 67,technology,1997,420.37,19371,United States,
+Account 68,entertainment,2014,1445.07,3977,United States,
+Account 69,telecommunications,2002,1349.11,21657,Panama,Account 57
+Account 70,entertainment,2013,571.97,12218,Panama,
+Account 71,technology,2015,458.44,29903,United States,Account 7
+Account 72,telecommunications,2000,507.86,19115,Panama,
+Account 73,medical,1989,1286.94,28181,United States,
+Account 74,software,1984,262.62,23805,United States,
+Account 75,retail,2000,932.27,25306,United States,
+Account 76,finance,1986,244.9,2731,Japan,Account 66
+Account 77,marketing,2007,1693.21,23335,United States,
+Account 78,telecommunications,2014,1064.11,18136,United States,
+Account 79,technology,1988,2187.42,11911,United States,
+Account 80,finance,1999,80.54,9438,United States,
+Account 81,medical,1980,118.85,19272,United States,
+Account 82,entertainment,1985,557.29,6013,United States,
+Account 83,entertainment,1993,2429.47,5614,Japan,
+Account 84,technology,2012,338.97,26234,Korea,

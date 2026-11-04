@@ -1,0 +1,11 @@
+cat >> .gitignore <<'EOF'
+.env
+data/raw/
+data/raw_sample/
+data/*.csv
+data/*.json
+data/*.jsonl
+models/
+.pytest_cache/
+.venv/
+EOF
